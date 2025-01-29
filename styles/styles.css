@@ -1,0 +1,67 @@
+nav{
+    background-color: darkblue;
+    padding: 10px
+}
+nav a{
+    color: white;
+    display: block;
+    padding: 20px;
+}
+h1{
+    color: rgb(13, 13, 22);
+    margin-bottom: 20px; 
+}   
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow :0 0 30px gray
+}
+image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: url('your-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+  }
+p{
+    padding: 10px;      
+}
+
+main{
+    max-width: 840px;
+}
+aside{
+   width:20em;
+   margin: 1em;
+   border: 1px solid rgb(0 0 0 / 20%); /* 1 */
+    padding: 1em;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+aside img {
+    width:200px;
+    height: auto;  
+}
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray; 
+    
+}
+p{
+    padding: 0;
+}  
+footer{
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+} 

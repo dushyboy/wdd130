@@ -1,0 +1,125 @@
+nav{
+    background-color: darkgray;
+    padding: 1px;
+    display: flex;
+}
+nav a{
+    color: white;
+    display: block;
+    padding: 20px;
+}
+  
+  /* Removed duplicate header selector */
+  
+  .nav-links {
+    list-style: none;  /* Removes bullet points */
+    display: flex;     /* Use flexbox to align items in a row */
+    justify-content: center; /* Centers the nav items horizontally */
+    gap: 20px;         /* Adds spacing between the items */
+  }
+  
+  .nav-links li {
+    margin: 0;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+
+  header {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center;     /* Centers the content vertically */
+    height: 400px;           /* Adjust the height of the header */
+  }
+  hero {
+    position: relative;
+    width: 100%;
+    height: 500px;  /* Adjust the height based on your preference */
+    background-image: url('hero-image.jpg');  /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* The heading is positioned absolutely in the center */
+  .hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the heading */
+    color: pink;
+    font-size: 3rem;  /* Adjust font size as needed */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);  /* Optional: Adds shadow for readability */
+    text-decoration-style: border;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  /* The article is also absolutely positioned */
+  .hero-article{
+    position: absolute;
+    bottom: 20px;   /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);  /* Centers the article horizontally */
+    color: red;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: background for readability */
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;      /* Adjust the width as needed */
+    text-align: center;
+  }
+  
+body {
+    margin: 0;
+    font-family: Arial, sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+    color: #dab6c4; /* Green color */
+    font-size: 80px;
+    text-align: center;
+    max-height: auto;
+    border: black;
+    padding: 2px;
+}
+p {
+    color: hsl(91, 10, 40); /* Blue color */
+    font-size: 20px;
+    line-height: 1.6;
+}   
+html, body{
+    display: grid;
+    place-items: left;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(315deg, #ffffff 0%, #e3eeff 74%);
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 200%;
+    background: linear-gradient(45deg, #f3e7e9, #e3eeff);
+    display: inline-block;
+    place-items: center;
+    line-height: 1%;
+    margin-top: auto;
+    text-align: center;
+}
+.button {
+    background-color: #f3e7e9;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px 24px;
+}

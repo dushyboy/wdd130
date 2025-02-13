@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS ONLINE QUIZ</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>HTML & CSS ONLINE QUIZ</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+            <legend>Quiz Questions</legend>
+            <div class="form-item column-2">
+                <label for="q1"> Qn1. where should the button ellement be placed withn an html document?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="form-item column-2">
+                <label for="q3">Qn2. Which HTML tag is used to define an internal style sheet?</label>
+                <input type="textarea" id="q2" name="q2">
+            </div>
+            <div class="form-item column-2">
+                <label for="q2">Qn3. What is the correct HTML for referring to an external style sheet?</label>
+                <input type="select" id="q3" name="q3">
+                <option value="a"> <link rel="stylesheet" type="text/css" href="mystyle.css"></option>
+                <option value="b"> <style src="mystyle.css"></style></option>
+                <option value="c"> <stylesheet></stylesheet></option>
+                <option value="d"> <link href="mystyle.css"></link></option>  
+                <option value=""> <selected disabled>choose one...</option>
+            </div>
+            
+            <div class="form-item column-2">
+                <label for="q4">Qn4.How many pixels is the default font size for the <body> element in most browsers if not specified? </label>
+                <input type="number" id="q4" name="q4">
+                 </div>       
+        </form>
+        <button type="submit">Submit Quiz</button>
+    </main>
+    <footer>
+        <p>©2025 html & css online quiz avtivity James Nickson Arusha</p>
+    </footer>
+</body>
+</html>

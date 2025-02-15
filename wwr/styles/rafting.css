@@ -193,14 +193,10 @@ footer {
   width: 100px; /* Adjust based on your image */
   text-align: center;
 }
-
 .employee img {
-  width: 100%;
-  height:100% auto;
-  display: block;
-  border-radius: 10px; /* Optional */
+  height: 100%;
+  width: auto;
 }
-
 .employee-text {
   position: absolute;
   bottom: 10px; /* Adjust based on preference */
